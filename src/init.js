@@ -73,8 +73,8 @@ $(document).ready(function(){
       }
       //we want to move dancer to the position of window.dancer[j]
       //we want to move window.dancer[j] to dancer's position
-    dancer.setPosition((ogX + farthestX) / 2, (ogY + farthestY)/2);
-
+    //dancer.setPosition((ogX + farthestX) / 2, (ogY + farthestY)/2);
+    dancer.interact(ogX, ogY, farthestX, farthestY);
 
     }
 
