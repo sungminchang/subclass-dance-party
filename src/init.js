@@ -38,6 +38,10 @@ $(document).ready(function(){
     }
   });
 
+  $(".dancer").on("mouseover", function(event) {
+    console.log('hi');
+  });
+
   $(".interact").on("click", function(event) {
     var square = function(x){
       return x * x;
